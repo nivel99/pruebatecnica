@@ -42,3 +42,50 @@
   top: 80px;
   right: 80px;
 }
+
+/* CONTENEDOR DE DETALLES */
+.number-counter-container {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  position: relative;
+  top: 110px;
+}
+
+.number-item {
+  text-align: center;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.large-text {
+  font-size: 64px;
+}
+
+.small-text {
+  font-size: 16px;
+}
+
+.vertical-line {
+  height: 80px; /* Ajustar según sea necesario */
+  width: 1px;
+  background-color: black;
+  margin: 0 20px;
+}
+
+.text-group {
+  margin-left: 10px; /* Espacio entre la línea y el grupo de texto */
+}
+
+.small-text-description{
+  font-size: 16px;
+  font-weight: bold;
+  position: relative;
+  margin: 0 auto;
+  bottom: 40px;
+  left: 10px;
+}
