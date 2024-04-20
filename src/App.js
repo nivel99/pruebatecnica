@@ -4,7 +4,6 @@ import CarDetails from './components/CarDetails';
 
 function App() {
 
-
   return (
     <ComparisonSlider
       defaultValue={50}
@@ -52,6 +51,7 @@ function App() {
       </div>}
       aspectRatio={16 / 9}
       orientation="horizontal"
+      className="comparion"
     />
   );
 }

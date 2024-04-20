@@ -1,9 +1,11 @@
 .bg-red-200{
   background-image: url("images/car1/car1-back.jpg");
+  height: 100%;
 }
 
 .bg-blue-200{
   background-image: url("images/car2/car2-back-desktop.jpg");
+  height: 100%;
 }
 
 .blueCar {
@@ -100,4 +102,53 @@
   margin: 0 auto;
   bottom: 40px;
   left: 10px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+
+  .c-dyuglr {
+    height: 100vh !important;
+    width: 100vh !important;
+  }
+
+  .blueCar {
+    background-image: url("images/car1/car1.png");
+    width: 500px !important;
+    height: 250px !important;
+    position: absolute;
+    bottom: 0px;
+    left: 20%;
+    transform: translateY(-10%);
+    background-size: contain;
+  }
+  
+  .whiteCar {
+    background-image: url("images/car2/car2.png");
+    width: 500px !important;
+    height: 250px !important;
+    position: absolute;
+    bottom: 0px;
+    left: 20%;
+    transform: translateY(-10%);
+    background-size: contain;
+  }
+
+  .logo1{
+    background-image: url("images/car1/car1-logo.png");
+    width: 250px !important;
+    height: 25px !important;
+    position: absolute;
+    top: 80px;
+  }
+  
+  .logo2{
+    background-image: url("images/car2/car2-logo.png");
+    width: 310px !important;
+    height: 25px !important;
+    position: absolute;
+    top: 80px;
+    right: 80px;
+  }
+
 }
