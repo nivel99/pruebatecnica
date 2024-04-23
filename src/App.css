@@ -108,14 +108,14 @@
 @media (max-width: 768px) {
 
   .c-dyuglr {
-    height: 100vh !important;
-    width: 100vh !important;
+    height: 70vh !important;
+    width: 60vh !important;
   }
 
   .blueCar {
     background-image: url("images/car1/car1.png");
-    width: 500px !important;
-    height: 250px !important;
+    width: 250px !important;
+    height: 125px !important;
     position: absolute;
     bottom: 0px;
     left: 20%;
@@ -125,8 +125,8 @@
   
   .whiteCar {
     background-image: url("images/car2/car2.png");
-    width: 500px !important;
-    height: 250px !important;
+    width: 250px !important;
+    height: 125px !important;
     position: absolute;
     bottom: 0px;
     left: 20%;
@@ -136,19 +136,27 @@
 
   .logo1{
     background-image: url("images/car1/car1-logo.png");
-    width: 250px !important;
-    height: 25px !important;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 125px !important;
+    height: 13px !important;
     position: absolute;
     top: 80px;
   }
   
   .logo2{
     background-image: url("images/car2/car2-logo.png");
-    width: 310px !important;
-    height: 25px !important;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 125px !important;
+    height: 13px !important;
     position: absolute;
     top: 80px;
     right: 80px;
+  }
+
+  .carComponent{
+    display: none;
   }
 
 }

@@ -9,6 +9,7 @@ function App() {
       defaultValue={50}
       itemOne={<div className="bg-red-200">
         <div className='logo1'></div>
+        <div className="carComponent" >
          <CarDetails 
          valor1="64" 
          prefijo1="kWh" 
@@ -26,10 +27,12 @@ function App() {
          prefijo5="s" 
          nombre5="(ACELERACIÓN (0-100 KM/H))"
          />
+         </div>
         <div className='blueCar'></div>
       </div>}
       itemTwo={<div className="bg-blue-200">
         <div className='logo2'></div>
+        <div className="carComponent" >
         <CarDetails 
          valor1="77" 
          prefijo1="kWh" 
@@ -47,6 +50,7 @@ function App() {
          prefijo5="s" 
          nombre5="(ACELERACIÓN (0-100 KM/H))"
          />
+         </div>
         <div className='whiteCar'></div>
       </div>}
       aspectRatio={16 / 9}
